@@ -11,7 +11,7 @@
     <{/if}>
     <h4 style='margin: 0;text-align:left;font-family:verdana,arial, sans-serif; font-size:normal;'><{$syndication.term}></h4>
     <p style='text-align:left;font-family:verdana,arial, sans-serif; font-size:small;'><{$syndication.definition}></p>
-    <div style='min-width:100%;border-top: 1px dotted #ccc;width=100%;position:absolute; right:3px; bottom:6px; padding-top: 12px; text-align:right;font-family:verdana,arial, sans-serif; font-size:x-small;'>
+    <div style='min-width:100%;border-top: 1px dotted #ccc;width:100%;position:absolute; right:3px; bottom:6px; padding-top: 12px; text-align:right;font-family:verdana,arial, sans-serif; font-size:x-small;'>
         <A
                 HREF=javascript:location.reload()> <{$smarty.const._MD_LEXIKON_RANDOMIZE}></A><br>
         <{$smarty.const._MD_LEXIKON_POWER}> <A HREF="<{$xoops_url}>" TARGET='_blank'><{$lang_sitename}></A>
